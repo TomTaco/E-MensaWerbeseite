@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5a628b92-4075-4db4-bde1-65bce98c93b9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1j0UQLKFBdiGBv9NoW6o6kdDSBt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a628b92-4075-4db4-bde1-65bce98c93b9" name="Default Changelist" comment="" />
+      <created>1602940485183</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602940485183</updated>
+      <workItem from="1602940486210" duration="607000" />
+      <workItem from="1602941106337" duration="363000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="814" y="375" key="#Notifications" timestamp="1602940830979">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="814" y="375" key="#Notifications/0.0.2048.1112/-1920.155.1920.1040@0.0.2048.1112" timestamp="1602940830979" />
+    <state x="885" y="453" key="Github.CreateGistDialog" timestamp="1602941046681">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="885" y="453" key="Github.CreateGistDialog/0.0.2048.1112/-1920.155.1920.1040@0.0.2048.1112" timestamp="1602941046681" />
+    <state x="1058" y="715" key="Github.ShareDialog" timestamp="1602941137354">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="1058" y="715" key="Github.ShareDialog/0.0.2048.1112/-1920.155.1920.1040@0.0.2048.1112" timestamp="1602941137354" />
+    <state x="569" y="196" key="SettingsEditor" timestamp="1602941471192">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="569" y="196" key="SettingsEditor/0.0.2048.1112/-1920.155.1920.1040@0.0.2048.1112" timestamp="1602941471192" />
+  </component>
+</project>
