@@ -1,0 +1,44 @@
+<!--
+ -Praktikum DBWT. Autoren:
+ - David, Junowitsch, 3239109
+ - David, Kopyra, 3239041
+ -->
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="/formdata.html" method="post">
+    <fieldset>
+        <legend>Anmeldung</legend>
+        <label for="frau">Anrede</label><br>
+        <input type="radio" id="frau" name="anrede" value="frau">
+        <label for="frau">Frau</label> <br>
+        <input type="radio" id="mann" name="anrede" value="mann">
+        <label for="mann">Mann</label><br>
+        <br>
+        <label for="vname">Vorname*</label> <br>
+        <input type="text"  size="30" id="vname" name="vname" placeholder="Bitte geben Sie Ihren Vornamen ein" required><br>
+        <br>
+        <label for="nname">Nachname*</label> <br>
+        <input type="text" size="30" id="nname" name="nname" placeholder="Bitte geben Sie Ihren Nachnamen ein" required><br>
+        <br>
+        <label for="mail">E-Mail*</label> <br>
+        <input type="text"  size="30" id="mail" name="mail" placeholder="Bitte geben Sie Ihre E-Mail ein" required><br>
+        <br>
+        <label for="datum">Benachrichtigungsintervall</label> <br>
+        <input type="date" id="datum" name="datum"><br>
+        <br>
+        <input type="checkbox" id="dschutz" name="dschutz" required>
+        <label for="dschutz">Datenschutzhinweise gelesen</label><br>
+        <br>
+        <input type="submit" value="Absenden"><br>
+        <sup>*)</sup> Eingaben sind Pflicht
+
+    </fieldset>
+</form>
+</body>
+</html>

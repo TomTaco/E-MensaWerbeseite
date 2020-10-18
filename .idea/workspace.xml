@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a628b92-4075-4db4-bde1-65bce98c93b9" name="Default Changelist" comment="test">
-      <change afterPath="$PROJECT_DIR$/beispiele/m1_4a_testauszeichnung.html" afterDir="false" />
+    <list default="true" id="5a628b92-4075-4db4-bde1-65bce98c93b9" name="Default Changelist" comment="D.Js Work">
+      <change afterPath="$PROJECT_DIR$/beispiele/logo-FH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beispiele/m1_4b_tabelle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beispiele/m1_4c_bild.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beispiele/m1_4d_links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beispiele/newsletteranmeldung.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beispiele/m1_4a_testauszeichnung.html" beforeDir="false" afterPath="$PROJECT_DIR$/beispiele/m1_4a_testauszeichnung.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/beispiele/m1_ersteSeite.html" beforeDir="false" afterPath="$PROJECT_DIR$/beispiele/m1_ersteSeite.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +50,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/beispiele" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Tom_T\sciebo\Studium Inhalte\WS 2020-2021\DbWt\Praktikum\M1\E-Mensa Werbeseite\beispiele" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -48,7 +68,9 @@
       <option name="presentableId" value="Default" />
       <updated>1602940485183</updated>
       <workItem from="1602940486210" duration="607000" />
-      <workItem from="1602941106337" duration="3767000" />
+      <workItem from="1602941106337" duration="3813000" />
+      <workItem from="1602951164683" duration="9365000" />
+      <workItem from="1603024195612" duration="607000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1602941550555</created>
@@ -64,15 +86,35 @@
       <option name="project" value="LOCAL" />
       <updated>1602941612471</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="D.Js Work">
+      <created>1602946171678</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602946171678</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="D.Js Work" />
+    <option name="LAST_COMMIT_MESSAGE" value="D.Js Work" />
   </component>
   <component name="WindowStateProjectService">
     <state x="814" y="375" key="#Notifications" timestamp="1602940830979">
@@ -91,9 +133,9 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="569" y="196" key="SettingsEditor/0.0.2048.1112/-1920.155.1920.1040@0.0.2048.1112" timestamp="1602941471192" />
-    <state x="653" y="283" key="Vcs.Push.Dialog.v2" timestamp="1602941637000">
+    <state x="653" y="283" key="Vcs.Push.Dialog.v2" timestamp="1602946141536">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="653" y="283" key="Vcs.Push.Dialog.v2/0.0.2048.1112/-1920.155.1920.1040@0.0.2048.1112" timestamp="1602941637000" />
+    <state x="653" y="283" key="Vcs.Push.Dialog.v2/0.0.2048.1112/-1920.155.1920.1040@0.0.2048.1112" timestamp="1602946141536" />
   </component>
 </project>
