@@ -14,11 +14,13 @@
 <form action="/formdata.html" method="post">
     <fieldset>
         <legend>Anmeldung</legend>
-        <label for="frau">Anrede</label><br>
-        <input type="radio" id="frau" name="anrede" value="frau">
-        <label for="frau">Frau</label> <br>
-        <input type="radio" id="mann" name="anrede" value="mann">
-        <label for="mann">Mann</label><br>
+        <label for="anrede">Anrede</label><br>
+        <div id="anrede">
+            <input type="radio" id="frau" name="frau" value="frau">
+            <label for="frau">Frau</label> <br>
+            <input type="radio" id="mann" name="mann" value="mann">
+            <label for="mann">Mann</label><br>
+        </div>
         <br>
         <label for="vname">Vorname*</label> <br>
         <input type="text"  size="30" id="vname" name="vname" placeholder="Bitte geben Sie Ihren Vornamen ein" required><br>
@@ -29,8 +31,12 @@
         <label for="mail">E-Mail*</label> <br>
         <input type="text"  size="30" id="mail" name="mail" placeholder="Bitte geben Sie Ihre E-Mail ein" required><br>
         <br>
-        <label for="datum">Benachrichtigungsintervall</label> <br>
-        <input type="date" id="datum" name="datum"><br>
+        <label for="ivall">Benachrichtigungsintervall</label> <br>
+        <select id="ivall" name="ivall">
+            <option value="tag">Tag</option>
+            <option value="woche" selected>Woche</option>
+            <option value="monat">Monat</option>
+        </select>
         <br>
         <input type="checkbox" id="dschutz" name="dschutz" required>
         <label for="dschutz">Datenschutzhinweise gelesen</label><br>

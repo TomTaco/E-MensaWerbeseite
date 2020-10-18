@@ -11,14 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a628b92-4075-4db4-bde1-65bce98c93b9" name="Default Changelist" comment="D.Js Work">
-      <change afterPath="$PROJECT_DIR$/beispiele/logo-FH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beispiele/m1_4b_tabelle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beispiele/m1_4c_bild.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beispiele/m1_4d_links.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beispiele/newsletteranmeldung.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beispiele/m1_8a_text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beispiele/m1_8b_layout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/beispiele/m1_4a_testauszeichnung.html" beforeDir="false" afterPath="$PROJECT_DIR$/beispiele/m1_4a_testauszeichnung.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beispiele/m1_ersteSeite.html" beforeDir="false" afterPath="$PROJECT_DIR$/beispiele/m1_ersteSeite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beispiele/newsletteranmeldung.html" beforeDir="false" afterPath="$PROJECT_DIR$/beispiele/newsletteranmeldung.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -70,7 +68,7 @@
       <workItem from="1602940486210" duration="607000" />
       <workItem from="1602941106337" duration="3813000" />
       <workItem from="1602951164683" duration="9365000" />
-      <workItem from="1603024195612" duration="607000" />
+      <workItem from="1603024195612" duration="8108000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1602941550555</created>
@@ -93,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602946171678</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="D.Js Work">
+      <created>1603024842534</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603024842534</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,5 +142,9 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="653" y="283" key="Vcs.Push.Dialog.v2/0.0.2048.1112/-1920.155.1920.1040@0.0.2048.1112" timestamp="1602946141536" />
+    <state x="842" y="470" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603029368255">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="842" y="470" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2048.1112/-1920.155.1920.1040@0.0.2048.1112" timestamp="1603029368255" />
   </component>
 </project>
