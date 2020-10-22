@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ihre E-Mensa</title>
+    <style>
+        #grid-container{
+            display: grid;
+            grid-template-rows: 50px auto 30px;
+            border: 1px solid black;
+            margin-left: 500px;
+            margin-right: 500px;
+            min-width: 800px;
+        }
+        header{
+            display: inline;
+            vertical-align: bottom;
+            height: 50px;
+        }
+        #navigation{
+
+            border: 1px solid black;
+            margin-left: auto;
+            margin-right: auto;
+            width: 60%;
+            height: 10px;
+        }
+        #navigation > ul{
+            text-align: left;
+        }
+        header img{
+            float: left;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+            border: 1px solid green;
+            vertical-align: bottom;
+        }
+
+
+        #logo{
+            padding: 10px;
+
+        }
+        main{
+            margin: auto;
+            width: 60%;
+            padding-top: 30px;
+        }
+        #randimg{
+            width: 100%;
+            height: 200px;
+        }
+        div{
+            padding-bottom: 50px;
+        }
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        #verabschiedung{
+            text-align: center;
+        }
+        footer li{
+            display: inline;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-right: 2px solid orange;
+        }
+        footer li:last-child{
+            border: none;
+        }
+        footer > ul{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+<div id="grid-container">
+    <header>
+        <span>
+        <img id="logo" src="e-mensa_logo.png" alt="E-Mensa Logo">
+        <div id="navigation">
+        <ul>
+            <a href="#ankuendigung">Ank&uuml;ndigung</a>
+            <a href="#speisen">Speisen</a>
+            <a href="#zahlen">Zahlen</a>
+            <a href="#kontakt">Kontakt</a>
+            <a href="#wichtig">Wichtig für uns</a>
+        </ul>
+        </div>
+        </span>
+        <hr>
+    </header>
+    <main>
+        <img id="randimg" src="placeholder.png" alt="E-Mensa Bild">
+        <div id="ankuendigung">
+            <h2 >Bald gibt es Essen auch online ;)</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+                sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+                elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+            </p>
+        </div>
+        <div id="speisen">
+            <h2 >K&ouml;stlichkeiten, die Sie erwarten</h2>
+            <table >
+                <tr>
+                    <th>Gericht</th>
+                    <th>Preis intern</th>
+                    <th>Preis extern</th>
+                </tr>
+                <tr>
+                    <td>Rindfleich mit Bambus, Kaiserschoten und rotem Paprika, dazu Mie Nudeln</td>
+                    <td>3,50</td>
+                    <td>6,20</td>
+
+                </tr>
+                <tr>
+                    <td>Spinatrisotto mit kleinen Samosteigecken und gemischter Salat</td>
+                    <td>2,90</td>
+                    <td>5,30</td>
+                </tr>
+                <tr>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+            </table>
+        </div>
+        <div id="zahlen">
+            <h2>E-Mensa in Zahlen</h2>
+            <ul>
+                <li>X Besuche</li>
+                <li>Y Anmeldungen zum Newsletter</li>
+                <li>Z Speisen</li>
+            </ul>
+        </div>
+        <div id="kontakt">
+            <h2>Interesse geweckt? Wir informieren Sie!</h2>
+            <form action="formdata.html">
+
+                    <label for="vname">Ihr Name</label>
+                    <label for="email">Ihre E-Mail:</label>
+                    <label for="sprache">Newsletter bitte in:</label>
+                <br>
+                    <input type="text" id="vname" name="vname" placeholder="Vorname" required>
+                    <input type="text" id="email" name="email" placeholder="email@example.com" required>
+                    <select name="sprache" id="sprache">
+                        <option value="deutsch">Deutsch</option>
+                        <option value="englisch">Englisch</option>
+                        <option value="klingonisch">Klingonisch</option>
+                    </select>
+                <br>
+                    <input type="checkbox" id="datenschutz" name="datenschutz" required>
+                    <label for="datenschutz"> Den Datenschutzbestimmungen stimme ich zu</label>
+                    <input type="submit" value="Zum Newsletter anmelden" disabled>
+
+
+            </form>
+        </div>
+        <div id="wichtig">
+        <h2>Das ist uns wichtig</h2>
+        <ul>
+            <li>Beste frische saisonale Zutaten</li>
+            <li>Ausgewogene abwechslungsreiche Gerichte</li>
+            <li>Sauberkeit</li>
+        </ul>
+        </div>
+        <h2 id="verabschiedung">Wir freuen uns auf Ihren Besuch!</h2>
+
+    </main>
+    <footer>
+        <hr>
+        <ul>
+            <li> &copy; E-Mensa GmbH</li>
+            <li>David und Dave</li>
+            <li><a href="">Impressum</a></li>
+        </ul>
+    </footer>
+</div>
+</body>
+</html>

@@ -11,11 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a628b92-4075-4db4-bde1-65bce98c93b9" name="Default Changelist" comment="D.Js Work">
-      <change afterPath="$PROJECT_DIR$/beispiele/m1_8a_text.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beispiele/m1_8b_layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beispiele/css_table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/werbeseite/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/beispiele/m1_4a_testauszeichnung.html" beforeDir="false" afterPath="$PROJECT_DIR$/beispiele/m1_4a_testauszeichnung.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beispiele/newsletteranmeldung.html" beforeDir="false" afterPath="$PROJECT_DIR$/beispiele/newsletteranmeldung.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beispiele/m1_8a_text.html" beforeDir="false" afterPath="$PROJECT_DIR$/beispiele/m1_8a_text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beispiele/m1_8b_layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/beispiele/m1_8b_layout.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +69,11 @@
       <workItem from="1602940486210" duration="607000" />
       <workItem from="1602941106337" duration="3813000" />
       <workItem from="1602951164683" duration="9365000" />
-      <workItem from="1603024195612" duration="8108000" />
+      <workItem from="1603024195612" duration="9341000" />
+      <workItem from="1603192469081" duration="7610000" />
+      <workItem from="1603213935892" duration="6351000" />
+      <workItem from="1603261546742" duration="5768000" />
+      <workItem from="1603358600754" duration="1937000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1602941550555</created>
@@ -98,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603024842534</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="D.Js Work">
+      <created>1603034008442</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603034008442</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,9 +154,9 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="653" y="283" key="Vcs.Push.Dialog.v2/0.0.2048.1112/-1920.155.1920.1040@0.0.2048.1112" timestamp="1602946141536" />
-    <state x="842" y="470" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603029368255">
+    <state x="842" y="470" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603266021973">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="842" y="470" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2048.1112/-1920.155.1920.1040@0.0.2048.1112" timestamp="1603029368255" />
+    <state x="842" y="470" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2048.1112/-1920.155.1920.1040@0.0.2048.1112" timestamp="1603266021973" />
   </component>
 </project>
