@@ -10,7 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a628b92-4075-4db4-bde1-65bce98c93b9" name="Default Changelist" comment="D.Js Work" />
+    <list default="true" id="5a628b92-4075-4db4-bde1-65bce98c93b9" name="Default Changelist" comment="D.Js Work">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beispiele/m1_4b_tabelle.html" beforeDir="false" afterPath="$PROJECT_DIR$/beispiele/m1_4b_tabelle.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +50,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/beispiele" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -72,6 +75,7 @@
       <workItem from="1603213935892" duration="6351000" />
       <workItem from="1603261546742" duration="5768000" />
       <workItem from="1603358600754" duration="2798000" />
+      <workItem from="1603383741361" duration="840000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1602941550555</created>
@@ -147,6 +151,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="93" y="93" width="1862" height="926" key="DiffContextDialog/0.0.2048.1112/-1920.155.1920.1040@0.0.2048.1112" timestamp="1603383109694" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1603384564461">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="261" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603384564461" />
     <state x="885" y="453" key="Github.CreateGistDialog" timestamp="1602941046681">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -159,13 +167,15 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="569" y="196" key="SettingsEditor/0.0.2048.1112/-1920.155.1920.1040@0.0.2048.1112" timestamp="1602941471192" />
-    <state x="653" y="283" key="Vcs.Push.Dialog.v2" timestamp="1603368667781">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state x="612" y="265" key="Vcs.Push.Dialog.v2" timestamp="1603384519815">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="653" y="283" key="Vcs.Push.Dialog.v2/0.0.2048.1112/-1920.155.1920.1040@0.0.2048.1112" timestamp="1603368667781" />
-    <state x="842" y="470" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603383109676">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state x="612" y="265" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603384519815" />
+    <state x="789" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603383756655">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="842" y="470" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2048.1112/-1920.155.1920.1040@0.0.2048.1112" timestamp="1603383109676" />
+    <state x="789" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603383756655" />
   </component>
 </project>
