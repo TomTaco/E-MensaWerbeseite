@@ -9,69 +9,80 @@
     <meta charset="UTF-8">
     <title>Ihre E-Mensa</title>
     <style>
+        *{
+            font-family: Arial,Helvetica,sans-serif;
+        }
         #grid-container{
             display: grid;
-            grid-template-rows: 50px auto 30px;
+            grid-template-rows: 100px auto 60px;
             border: 1px solid black;
             margin-left: 500px;
             margin-right: 500px;
             min-width: 800px;
         }
         header{
-            display: inline;
-            vertical-align: bottom;
-            height: 50px;
+            padding-top: 40px;
+            border-bottom: 1px solid black;
         }
         #navigation{
-
             border: 1px solid black;
             margin-left: auto;
             margin-right: auto;
             width: 60%;
-            height: 10px;
-        }
-        #navigation > ul{
-            text-align: left;
-        }
-        header img{
-            float: left;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            text-align: left;
-            border: 1px solid green;
-            vertical-align: bottom;
         }
 
+        #navigation li{
+            display: inline;
+            padding-right: 20px;
+        }
 
         #logo{
+            width: 15%;
+            height: 30px;
+            margin-left: 15px;
             padding: 10px;
-
+            float: left;
+            border: 1px solid black;
         }
         main{
-            margin: auto;
+            margin: 10px auto;
             width: 60%;
-            padding-top: 30px;
         }
+
         #randimg{
             width: 100%;
             height: 200px;
         }
-        div{
+        main div{
             padding-bottom: 50px;
         }
         table, th, td{
             border: 1px solid black;
             border-collapse: collapse;
         }
+        #kontakt label{
+            width: 20%;
+            padding-right: 95px;
+        }
+        #kontakt input{
+        }
+        #wichtig > ul{
+            position: relative;
+            left: 100px;
+        }
         #verabschiedung{
             text-align: center;
+        }
+        footer{
+            border-top: 1px solid black;
         }
         footer li{
             display: inline;
             padding-left: 15px;
             padding-right: 15px;
             border-right: 2px solid orange;
+            position: relative;
+            right: 30px;
         }
         footer li:last-child{
             border: none;
@@ -85,24 +96,23 @@
 <body>
 <div id="grid-container">
     <header>
-        <span>
+
         <img id="logo" src="e-mensa_logo.png" alt="E-Mensa Logo">
+
         <div id="navigation">
-        <ul>
-            <a href="#ankuendigung">Ank&uuml;ndigung</a>
-            <a href="#speisen">Speisen</a>
-            <a href="#zahlen">Zahlen</a>
-            <a href="#kontakt">Kontakt</a>
-            <a href="#wichtig">Wichtig für uns</a>
-        </ul>
+            <ul>
+                <li><a href="#ankuendigung">Ank&uuml;ndigung</a></li>
+                <li><a href="#speisen">Speisen</a></li>
+                <li><a href="#zahlen">Zahlen</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+                <li><a href="#wichtig">Wichtig für uns</a></li>
+            </ul>
         </div>
-        </span>
-        <hr>
     </header>
     <main>
         <img id="randimg" src="placeholder.png" alt="E-Mensa Bild">
         <div id="ankuendigung">
-            <h2 >Bald gibt es Essen auch online ;)</h2>
+            <h2 >Bald gibt es Essen auch online &#128521;</h2>
             <p>
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
                 dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
@@ -151,22 +161,21 @@
             <h2>Interesse geweckt? Wir informieren Sie!</h2>
             <form action="formdata.html">
 
-                    <label for="vname">Ihr Name</label>
-                    <label for="email">Ihre E-Mail:</label>
-                    <label for="sprache">Newsletter bitte in:</label>
+                <label for="vname">Ihr Name:</label>
+                <label for="email">Ihre E-Mail:</label>
+                <label for="sprache">Newsletter bitte in:</label>
                 <br>
-                    <input type="text" id="vname" name="vname" placeholder="Vorname" required>
-                    <input type="text" id="email" name="email" placeholder="email@example.com" required>
-                    <select name="sprache" id="sprache">
-                        <option value="deutsch">Deutsch</option>
-                        <option value="englisch">Englisch</option>
-                        <option value="klingonisch">Klingonisch</option>
-                    </select>
+                <input type="text" id="vname" name="vname" placeholder="Vorname " size="20" required>
+                <input type="text" id="email" name="email" placeholder="email@example.com" size="20" required>
+                <select name="sprache" id="sprache">
+                    <option value="deutsch">Deutsch</option>
+                    <option value="englisch">Englisch</option>
+                    <option value="klingonisch">Klingonisch</option>
+                </select>
                 <br>
-                    <input type="checkbox" id="datenschutz" name="datenschutz" required>
-                    <label for="datenschutz"> Den Datenschutzbestimmungen stimme ich zu</label>
-                    <input type="submit" value="Zum Newsletter anmelden" disabled>
-
+                <input type="checkbox" id="datenschutz" name="datenschutz" required>
+                <label for="datenschutz"> Den Datenschutzbestimmungen stimme ich zu</label>
+                <input type="submit" value="Zum Newsletter anmelden" disabled>
 
             </form>
         </div>
@@ -182,10 +191,9 @@
 
     </main>
     <footer>
-        <hr>
         <ul>
             <li> &copy; E-Mensa GmbH</li>
-            <li>David und Dave</li>
+            <li>David und David</li>
             <li><a href="">Impressum</a></li>
         </ul>
     </footer>
