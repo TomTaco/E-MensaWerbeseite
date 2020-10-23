@@ -1,0 +1,50 @@
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  width: 50%;
+}
+
+#etabelle{
+    border: 2px solid orange;
+    position: relative;
+    left: 7%;
+    width: 65%;
+}
+p > a{
+    color: darkorange;
+    font-weight: bold;
+    text-decoration-line: none;
+}
+thead{
+    background-color: rgb(255, 230, 204);
+}
+tr:nth-child(even){
+    background-color: rgb(255, 230, 204);
+}
+table li{
+    padding: 10px;
+}
+.center{
+    position: relative;
+    right: 10%;
+    text-align: center;
+}
+abbr{
+    text-decoration-line: none;
+}
+footer{
+    text-align: right;
+    width: 80%;
+    border-top: 2px solid orange
+}
+footer li{
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-right: 2px solid orange;
+}
+footer li:last-child{
+    border: none;
+}
+

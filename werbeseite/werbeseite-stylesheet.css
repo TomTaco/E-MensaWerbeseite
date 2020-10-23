@@ -1,0 +1,81 @@
+*{
+    font-family: Arial,Helvetica,sans-serif;
+}
+#grid-container{
+    display: grid;
+    grid-template-rows: 100px auto 60px;
+    border: 1px solid black;
+    margin-left: 500px;
+    margin-right: 500px;
+    min-width: 800px;
+}
+header{
+    padding-top: 40px;
+    border-bottom: 1px solid black;
+}
+#navigation{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+#navigation li{
+    display: inline;
+    padding-right: 20px;
+}
+
+#logo{
+    width: 15%;
+    height: 30px;
+    margin-left: 15px;
+    padding: 10px;
+    float: left;
+    border: 1px solid black;
+}
+main{
+    margin: 10px auto;
+    width: 60%;
+}
+
+#randimg{
+    width: 100%;
+    height: 200px;
+}
+main div{
+    padding-bottom: 50px;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#kontakt label{
+    width: 20%;
+    padding-right: 95px;
+}
+#kontakt input{
+}
+#wichtig > ul{
+    position: relative;
+    left: 100px;
+}
+#verabschiedung{
+    text-align: center;
+}
+footer{
+    border-top: 1px solid black;
+}
+footer li{
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-right: 2px solid orange;
+    position: relative;
+    right: 30px;
+}
+footer li:last-child{
+    border: none;
+}
+footer > ul{
+    text-align: center;
+}
