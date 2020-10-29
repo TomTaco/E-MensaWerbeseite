@@ -11,12 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a628b92-4075-4db4-bde1-65bce98c93b9" name="Default Changelist" comment="D.Js Work">
-      <change afterPath="$PROJECT_DIR$/beispiele/bildschirm-stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/werbeseite/werbeseite-stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beispiele/css_table.html" beforeDir="false" afterPath="$PROJECT_DIR$/beispiele/css_table.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beispiele/newsletteranmeldung.html" beforeDir="false" afterPath="$PROJECT_DIR$/beispiele/newsletteranmeldung.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/werbeseite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/werbeseite/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beispiele/m1_6" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +78,7 @@
       <workItem from="1603213935892" duration="6351000" />
       <workItem from="1603261546742" duration="5768000" />
       <workItem from="1603358600754" duration="2798000" />
-      <workItem from="1603449289568" duration="3002000" />
+      <workItem from="1603449289568" duration="4918000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1602941550555</created>
@@ -140,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603399112080</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="D.Js Work">
+      <created>1603466436766</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1603466436766</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,10 +191,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="569" y="196" key="SettingsEditor/0.0.2048.1112/-1920.155.1920.1040@0.0.2048.1112" timestamp="1602941471192" />
-    <state x="653" y="283" key="Vcs.Push.Dialog.v2" timestamp="1603399115899">
+    <state x="653" y="283" key="Vcs.Push.Dialog.v2" timestamp="1603466439178">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="653" y="283" key="Vcs.Push.Dialog.v2/0.0.2048.1112/-1920.155.1920.1040@0.0.2048.1112" timestamp="1603399115899" />
+    <state x="653" y="283" key="Vcs.Push.Dialog.v2/0.0.2048.1112/-1920.155.1920.1040@0.0.2048.1112" timestamp="1603466439178" />
     <state x="842" y="470" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603383109676">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
